@@ -6,7 +6,12 @@
     <title>FORM</title>
 </head>
 <body>
-    <form action="" method="POST"> <!--Always write GET or POST in capital-->
+    <form action="/index.html" method="POST"> <!--Always write GET or POST in capital-->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </fieldset><br><br>
         <input required type="text"  name="name" placeholder="Enter your name"><br><br>
         <input required type="email" name="email" placeholder="Enter your email"><br><br>
         <input required type="password" name="password" placeholder="Enter your password"><br><br>
